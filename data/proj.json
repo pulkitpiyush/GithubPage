@@ -1,0 +1,18 @@
+[
+    {
+        "title": "WebQ | Bachelor's Project",
+        "description": "Implemented a virtual queue to improve user experience during web server overload. Consists of two web proxies, that together simulate a virtual queue of web requests, and shape incoming load to match server capacity. Published as \\href{http://ieeexplore.ieee.org/document/7404723/}{research paper} in IEEE/ACM International Symposium on Quality of Service (IWQoS) at Portland,OR,June 2015",
+        "languages": "C++"
+    },
+    {
+        "title": "Virtual Memory for \\href{http://os161.eecs.harvard.edu}{OS161}",
+        "description": "Enhanced OS161 to support virtual memory with non-contiguous memory allocation, swap file facility, demand paging scheme and LRU replacement policy. Designed and implemented VM manager and address space of process containing page table and swap file",
+        "languages": "C"
+    },
+    {
+        "title": "Control Flow Graph Language Processor",
+        "description": "Created a compiler and interpreter for processing high level control flow graphs from GCC
+        Supported arithmetic, conditional, intra-procedural control-flow statements and procedure calls",
+        "languages": "C++"
+    }
+]

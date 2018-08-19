@@ -1,0 +1,14 @@
+[
+    {
+        "school": "Georgia Institute of Technology",
+        "school_location": "Atlanta, GA",
+        "degree": "Masters in Computer Science",
+        "time_period": "Aug 2018 - Present"
+    },
+    {
+        "school": "Indian Institute of Technology, Bombay",
+        "school_location": "Mumbai, India",
+        "degree": "Bachelors in Computer Science and Engineering; CGPA 8.53/10",
+        "time_period": "Jun 2010 - May 2014"
+    }
+]
