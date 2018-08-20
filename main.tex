@@ -86,32 +86,32 @@
 % Load lua script
 %-------------------------------------------
 \begin{luacode}
-require("lua/parser.lua")
+require("_lua/parser.lua")
 \end{luacode}
 
 % Print Heading
 %-------------------------------------------
-\directlua{printHeading("data/personal.json")}
+\directlua{printHeading("_data/personal.json")}
 
 % Print Education
 %-------------------------------------------
 \section{Education}
   \resumeSubHeadingListStart
-	\directlua{printEduItems("data/edu.json")}
+	\directlua{printEduItems("_data/edu.json")}
   \resumeSubHeadingListEnd
 
 % Print Experience
 %-------------------------------------------
 \section{Experience}
   \resumeSubHeadingListStart
-  	\directlua{printExpItems("data/exp.json")}
+  	\directlua{printExpItems("_data/exp.json")}
   \resumeSubHeadingListEnd
 
 % Print Projects
 %-------------------------------------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \directlua{printProjItems("data/proj.json")}
+    \directlua{printProjItems("_data/proj.json")}
   \resumeSubHeadingListEnd
 
 % Print Skills
@@ -119,11 +119,11 @@ require("lua/parser.lua")
 \section{Programming Skills}
   \resumeSubHeadingListStart
     \item{
-      \textbf{Languages}{: \directlua{printList("data/personal.json", "languages", "language")}}
+      \textbf{Languages}{: \directlua{printList("_data/personal.json", "languages", "language")}}
 
       \vspace*{-2mm}
 
-      \textbf{Technologies}{: \directlua{printList("data/personal.json", "technologies", "technology")}}
+      \textbf{Technologies}{: \directlua{printList("_data/personal.json", "technologies", "technology")}}
       }
   \resumeSubHeadingListEnd
 
