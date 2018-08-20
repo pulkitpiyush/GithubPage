@@ -8,7 +8,7 @@
         "details": [
         	{
                 "title": "Full Stack Development",
-                "description": "Implemented a sharded mongoDb backend for storing trading order information(~5 million rows/day) and a react front end for displaying that information, using vertx as the web server.",
+                "description": "Implemented a sharded mongoDb backend for storing trading order information(about 5 million rows/day) and a react front end for displaying that information, using vertx as the web server.",
                 "languages":"Java React JavaScript MongoDb"
             },
             {
