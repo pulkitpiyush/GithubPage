@@ -8,7 +8,7 @@
         "details": [
         	{
                 "title": "Full Stack Development",
-                "description": "Implemented a sharded mongoDb backend for storing trading order information(about 5 million rows/day) and a react front end for displaying that information, using vertx as the web server.",
+                "description": "Implemented a sharded mongoDb backend for storing trading order information(about 5 million rows/day) along with react front end, using vertx as the web server.",
                 "languages":"Java React JavaScript MongoDb"
             },
             {
@@ -27,12 +27,12 @@
         "details": [
             {
                 "title": "Capacity Enhancements",
-                "description": "Worked as a software developer and maintainer for Algorithmic Trading Platform, written as an API over proprietary language, implemented internally in C++. Fixed memory leaks in the system using valgrind/massif and reduced the memory consumptionby 25\\%. Reduced the number of external market data events entering into the platform, by only sending the latest Quote price alongside with every Trade event, thus increasing the capacity of each engine by 50\\%.",
+                "description": "Fixed memory leaks in the system using valgrind/massif and reduced the memory consumptionby 25\\%. Reduced the number of external market data events entering into the platform, by only sending the latest Quote price alongside with every Trade event, thus increasing the capacity of each engine by 50\\%.",
                 "languages": "C++"
             },
             {
                 "title": "Logging Enhancements",
-                "description": "Moved logging from proprietary language to C++, making logging an order of magnitude faster.",
+                "description": "Moved logging from proprietary language to C++, making it an order of magnitude faster.",
                 "languages": "C++"
             }
         ]
@@ -79,7 +79,7 @@
         "details": [
             {
                 "title": "Ruby on Rails Web UI",
-                "description": "Developed APIs in ruby on rails for Claritics Data Analytics Application, used in automatic creation of user accounts and automatic registration of user applications. Developed a ruby on rails application for showing graphs using High Charts, for top user applications of the month in terms of maximum data sent by the application. Developed the UI for showing notifications related to user applications depending on sudden changes in trends of real time data.",
+                "description": "Developed a ruby on rails application for showing graphs using High Charts, for top user applications of the month in terms of maximum data sent by the application",
                 "languages": "Ruby"
             }
         ]
