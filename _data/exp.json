@@ -27,7 +27,7 @@
         "details": [
             {
                 "title": "Capacity Enhancements",
-                "description": "Fixed memory leaks in the system using valgrind/massif and reduced the memory consumptionby 25\\%. Reduced the number of external market data events entering into the platform, by only sending the latest Quote price alongside with every Trade event, thus increasing the capacity of each engine by 50\\%.",
+                "description": "Fixed memory leaks in the system using valgrind/massif and reduced the memory consumption by 25\\%. Reduced the number of external market data events entering into the platform, by only sending the latest Quote price alongside with every Trade event, thus increasing the capacity of each engine by 50\\%.",
                 "languages": "C++"
             },
             {
