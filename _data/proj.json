@@ -1,7 +1,7 @@
 [
     {
         "title": "WebQ | Bachelor's Project",
-        "description": "Implemented a virtual queue to improve user experience during web server overload. It consists of two web proxies, that together simulate a virtual queue of web requests, and shape incoming load to match server capacity. The work was published as \\href{http://ieeexplore.ieee.org/document/7404723/}{research paper} in IEEE/ACM International Symposium on Quality of Service (IWQoS) at Portland,OR,June 2015.",
+        "description": "Implemented a virtual queue to improve user experience during web server overload. It consists of two web proxies, that together simulate a virtual queue of web requests, and shape incoming load to match server capacity. The work was published as {\\href{http://ieeexplore.ieee.org/document/7404723/}{research paper}} in IEEE/ACM International Symposium on Quality of Service (IWQoS) at Portland,OR,June 2015.",
         "languages": "C++"
     }
 ]

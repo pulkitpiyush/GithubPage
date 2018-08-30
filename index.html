@@ -51,10 +51,14 @@ title: Pulkit Piyush
               {% for detail in experience.details %}
               <li class="content is-marginless" style="font-size: 0.8rem">
                 <span class="heading is-marginless">
-                  {{ detail.title }}
+
+                    {{ detail.title | uri_escape | replace: "%20", " " | replace: "%7B%5Chref%7B", "<a style='color:blue' href='" | replace: "%7D%7B", "'>" | replace: "%7D%7D", "</a>" | replace: '%5C%25', '%' }}
+
                   <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ detail.languages }}</span>
                 </span>
-                {{ detail.description }}
+
+                {{ detail.description | uri_escape | replace: "%20", " " | replace: "%7B%5Chref%7B", "<a style='color:blue' href='" | replace: "%7D%7B", "'>" | replace: "%7D%7D", "</a>" | replace: '%5C%25', '%' }}
+
               </li>
               {% endfor %}
             </ul>
@@ -62,13 +66,15 @@ title: Pulkit Piyush
         </div>
 
         <div class="content">
-          <span class="heading"><h3>Projects</h3></span>
+          <span class="heading"><h3>Publications</h3></span>
           {% for project in site.data.proj %}
             <p class="heading is-marginless">
               {{ project.title }}
               <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ project.languages }}</span>
             </p>
-            <p style="font-size: 0.8rem">{{ project.description }}</p>
+            <p style="font-size: 0.8rem">
+                {{ project.description | uri_escape | replace: "%20", " " | replace: "%7B%5Chref%7B", "<a style='color:blue' href='" | replace: "%7D%7B", "'>" | replace: "%7D%7D", "</a>" | replace: '%5C%25', '%' }}
+            </p>
           {% endfor %}
         </div>
 
@@ -96,7 +102,7 @@ title: Pulkit Piyush
                 <i class="fa fa-github"></i>
               </a>
               <a href="pulkitpiyush_resume.pdf" class="icon" download>
-                <i class="fa fa-download" aria-hidden="true"> 
+                <i class="fa fa-download" aria-hidden="true">
               </i></a>
             </p>
           </div>

@@ -38,3 +38,5 @@ _site
 *.xcp
 *.xdy
 *.tdo
+
+Gemfile*
