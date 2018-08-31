@@ -1,0 +1,2 @@
+{{ include.description | uri_escape | replace: "%20", " " | replace: "%7B%5Chref%7B", "<a style='color:blue' href='" | replace: "%7D%7B", "'>" | replace: "%7D%7D", "</a>" | replace: '%5C%25', '%' }}
+

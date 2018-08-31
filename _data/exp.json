@@ -45,7 +45,7 @@
         "time_duration": "June 2014 - April 2016",
         "details": [
             {
-                "title": "{\\href{https://en.wikipedia.org/wiki/Financial_Information_eXchange}{FIX Protocol}} Application",
+                "title": "FIX Protocol Application",
                 "description": "Used POSIX shared memory APIs for IPC and select loop for file descriptors based event management, in a server application implementing {\\href{https://en.wikipedia.org/wiki/Financial_Information_eXchange}{FIX protocol}}. Built a connectivity layer for reference data service to a RabbitMQ message broker with protobuf wire format.",
                 "languages": "C++ Ruby"
             },
