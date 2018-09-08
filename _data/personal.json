@@ -1,13 +1,13 @@
 [
     {
         "name": "Pulkit Piyush",
-        "website": "https://pulkitpiyush.github.io/",
+        "website": "https://pulkitpiyush.github.io",
         "email": "pulkit.piyush@gmail.com",
         "email2": "pulkit.piyush@gmail.com",
         "phone": "+1-404-717-9967",
-        "linkedin":"https://https://www.linkedin.com/in/pulkit-piyush/",
+        "linkedin":"https://www.linkedin.com/in/pulkit-piyush",
         "facebook":"https://www.facebook.com/pulkit.piyush",
-        "github":"https://github.com/pulkitpiyush/",
+        "github":"https://github.com/pulkitpiyush",
         "languages": [
             {
                 "language": "C++"
